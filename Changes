@@ -9,6 +9,9 @@ High-level changelog
 Low-level changelog
 ===================
 
+0.03 Thu Aug  9 17:52:17 CEST 2007
+ - fixed typo caught by rgs
+
 0.02 Thu Aug  9 11:38:36 CEST 2007
  - pod complete
  - real buzzwords taken from http://en.wikipedia.org/wiki/List_of_buzzwords

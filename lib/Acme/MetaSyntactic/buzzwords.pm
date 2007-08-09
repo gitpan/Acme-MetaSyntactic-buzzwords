@@ -14,7 +14,7 @@ use warnings;
 
 use base qw[ Acme::MetaSyntactic::List ];
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 __PACKAGE__->init();
 
 
@@ -96,7 +96,7 @@ best_of_breed best_practices bizmeth brand brick_and_mortar
 buzzword_compliant client_centric co_opetition customer_centric
 downsizing drinking_the_kool_aid eat_their_own_dog_food enterprise
 event_horizon eyeballs free_value fulfilment_issues granular
-herding_cats logisitcs long_tail low_hanging_fruit make_it_pop mindshare
+herding_cats logistics long_tail low_hanging_fruit make_it_pop mindshare
 new_economy next_generation offshoring return_on_investment roi
 reverse_fulfilment rightshoring share_options solution sox
 sarbanes_oxley value_added visibility
