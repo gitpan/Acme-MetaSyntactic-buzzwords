@@ -9,6 +9,11 @@ High-level changelog
 Low-level changelog
 ===================
 
+0.02 Thu Aug  9 11:38:36 CEST 2007
+ - pod complete
+ - real buzzwords taken from http://en.wikipedia.org/wiki/List_of_buzzwords
+ - theme now complete waiting for review before hitting 1.0
+
 0.01 Thu Aug  9 11:00:39 CEST 2007
  - initial release
 
