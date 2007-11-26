@@ -14,7 +14,7 @@ use warnings;
 
 use base qw[ Acme::MetaSyntactic::List ];
 
-our $VERSION = '0.03';
+our $VERSION = '1.00';
 __PACKAGE__->init();
 
 

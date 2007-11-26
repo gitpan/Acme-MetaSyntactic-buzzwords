@@ -1,6 +1,6 @@
 ---
 name: Acme-MetaSyntactic-buzzwords
-version: 0.03
+version: 1.00
 author:
   - 'Jerome Quelin <jquelin@cpan.org>'
 abstract: Pointy-haired boss lingo
@@ -10,11 +10,16 @@ resources:
 requires:
   Acme::MetaSyntactic: 0
 build_requires:
+  Acme::MetaSyntactic: 0
   Test::More: 0
+recommends:
+  Test::Kwalitee: 0
+  Test::Pod: 0
+  Test::Pod::Coverage: 0
 provides:
   Acme::MetaSyntactic::buzzwords:
     file: lib/Acme/MetaSyntactic/buzzwords.pm
-    version: 0.03
+    version: 1.00
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

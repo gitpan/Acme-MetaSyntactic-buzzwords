@@ -22,10 +22,16 @@ my $builder = Module::Build->new (
         map { ( '*/' x $_ ) . '*~' } 0..5 ],
     script_files   => [ ],
     build_requires => {
-        'Test::More' => 0,
+        'Acme::MetaSyntactic' => 0,
+        'Test::More'          => 0,
     },
     requires       => {
-        'Acme::MetaSyntactic'  => 0,
+        'Acme::MetaSyntactic' => 0,
+    },
+    recommends     => {
+        'Test::Kwalitee'      => 0,
+        'Test::Pod'           => 0,
+        'Test::Pod::Coverage' => 0,
     },
 );
 
